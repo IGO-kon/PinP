@@ -19,12 +19,23 @@ A Python + PyQt5 + X11 screen capture application that creates a "follow-along s
 ## Installation
 
 ```bash
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate  # On Linux/macOS
+# or on Windows: venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
+# Make sure the virtual environment is activated
+source venv/bin/activate  # On Linux/macOS
+
 python3 pinp.py
 ```
 
